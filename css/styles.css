@@ -703,11 +703,14 @@ img {
   transition: transform 250ms linear;
 }
 
-
-.block-photos-one:hover .overlay,
-.block-photos-one:focus .overlay {
+.block-photos-one {
+  display: block;
+}
+.block-photos-one:hover .products-cover-text,
+.block-photos-one:focus .products-cover-text {
     transform: translateY(0%);
 }
+
 
 .title-portf-pic {
   border: 1px solid #e7e9fc;
